@@ -1,8 +1,5 @@
-import os
-from flask import Flask
-from flask import request, render_template
+from flask import Flask, request, render_template
 import jinja2
-import pdb
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
